@@ -1,0 +1,35 @@
+body{
+    display:grid;
+    place-items: center;
+    background-color: darkslategrey;
+}
+.image-container{
+width:300px;
+height:400px;
+background-color:rgba(9, 9, 9, 0.255);
+background-image:url("my brother.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+color:dodgerblue;
+font-weight: bold;
+font-size: 30px;
+position:relative;
+}
+.cover{
+width:300px;
+height:400px;
+background-color:#3498db;
+position:absolute;
+display:flex;
+justify-content: center;
+align-items: center;
+transition: transform 2s linear ;
+font-size:30px;
+text-decoration: underline;
+text-transform:uppercase;
+font-weight: bold;
+}
+.cover:hover{
+    transform:translate(310px); 
+}
+
